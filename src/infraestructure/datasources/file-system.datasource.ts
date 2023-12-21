@@ -5,7 +5,7 @@ import { LogEntity, LogSeverityLevel } from "../../domain/entities/log.entitty";
 export class FileSystemDatasource implements LogDatasource{
 
     private readonly logPath = 'logs/';
-    private readonly allLogsPath = 'logs/logs-low.log';
+    private readonly allLogsPath = 'logs/logs-all.log';
     private readonly mediumLogsPath = 'logs/logs-medium.log';
     private readonly highLogsPath = 'logs/logs-high.log';
 
